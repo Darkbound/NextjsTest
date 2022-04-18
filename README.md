@@ -1,9 +1,8 @@
-The section that you need to create is shown in agencyselection.png
+The section that you need to create is shown in **agencyselection.png**
 
 1. The main Section must be placed in the folder sections.
-2. All collections of components must be created and placed in the collections folder.
+2. All collections of components must be created and placed in the collections folder. (for example such things are Forms, Menus, etc. because they contain multiple other components within themselves, a form contains inputs, checkboxes, radio buttons, buttons and so on, that is making it a _collection of components_)
 3. All base components that are making up collections of components go to components folder - these are Typography, Buttons, Checkboxes and other base elements. 
-A Card element for example would be in the collections folder
 
 You will find the desktop and mobile designs in the resources folder.
 That folder is not part of the project, its there for your convenience
