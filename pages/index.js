@@ -22,35 +22,37 @@ const agencySelectionProps = {
     width: 1000,
     height: 1680,
   },
-  carts: {
-    cartOne: {
-      title: "Brief",
-      description:
-        "Complete brief writing or simply guidance on what to include, we've got you covered",
-      src: "/img/cartPictureOne.png",
-      alt: "",
-      width: 20,
-      height: 20,
+  carts: [
+    {
+      cartOne: {
+        title: "Brief",
+        description:
+          "Complete brief writing or simply guidance on what to include, we've got you covered",
+        src: "/img/cartPictureOne.png",
+        alt: "",
+        width: 20,
+        height: 20,
+      },
+      cartTwo: {
+        title: "Search",
+        description:
+          "In-depth agency search covering; criteria matching, door knocking and due-dilligence vetting",
+        src: "/img/cartPictureTwo.png",
+        alt: "",
+        width: 20,
+        height: 20,
+      },
+      cartThree: {
+        title: "Pitch",
+        description:
+          "Comprehensive pitch management, including comms, diary management and pitch hosting",
+        src: "/img/cartPictureOne.png",
+        alt: "",
+        width: 20,
+        height: 20,
+      },
     },
-    cartTwo: {
-      title: "Search",
-      description:
-        "In-depth agency search covering; criteria matching, door knocking and due-dilligence vetting",
-      src: "/img/cartPictureTwo.png",
-      alt: "",
-      width: 20,
-      height: 20,
-    },
-    cartOne: {
-      title: "Pitch",
-      description:
-        "Comprehensive pitch management, including comms, diary management and pitch hosting",
-      src: "/img/cartPictureOne.png",
-      alt: "",
-      width: 20,
-      height: 20,
-    },
-  },
+  ],
 };
 
 export default function Home() {
